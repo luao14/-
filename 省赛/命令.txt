@@ -1,0 +1,12 @@
+录包完成后，想要查看.bag文件的效果
+rosbag play 文件名
+
+建图完成后，想要查看点云地图的效果
+pcl_viewer 文件名
+
+雷达启动
+velodyne
+
+
+视觉识别模型应用代码（本地摄像头）
+yolo predict model=D:\ultralytics-8.3.163\ultralytics-8.3.163\runs\detect\best\weights\best.pt source=0 show=True
